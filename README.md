@@ -1,6 +1,6 @@
 # SwiftCropper
 
-FavOnboardingKit provides an onboarding flow that is simple and easy to implement.
+SwiftCropper provides a simple and easy way to crop images.
 
 
 ## Contents
@@ -18,13 +18,13 @@ FavOnboardingKit provides an onboarding flow that is simple and easy to implemen
 
 
 ## Installation
-There are two ways to use FavOnboardingKit in your project:
+There are two ways to use SwiftCropper in your project:
 - using Swift Package Manager
 - manual install (build frameworks or embed Xcode Project)
 
 ### Swift Package Manager
 
-To integrate FavOnboardingKit into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
+To integrate SwiftCropper into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
 
 ```swift
 dependencies: [
