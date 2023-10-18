@@ -18,13 +18,13 @@ public enum Crop: Equatable {
     func name() -> String {
         switch self {
         case let .circle(diameter):
-            return "Circle (r = \(diameter/2)"
+            return "Circle (r = \(diameter/2))"
         case let .rectangle(cGSize):
-            return "Rectangle \(Int(cGSize.width))*\(Int(cGSize.height))"
+            return "Rectangle (\(Int(cGSize.width))*\(Int(cGSize.height)))"
         case let .square(cGSize):
-            return "Square \(Int(cGSize))*\(Int(cGSize))"
+            return "Square (\(Int(cGSize))*\(Int(cGSize)))"
         case let .custom(cGSize):
-            return "Custom \(Int(cGSize.width))*\(Int(cGSize.height))"
+            return "Custom (\(Int(cGSize.width))*\(Int(cGSize.height)))"
         }
     }
     
